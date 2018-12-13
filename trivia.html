@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Trivia-Laboratoria</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="box">
+      <h3>Escolha um tema:</h3>
+      <!-- <p>Você terá apenas <span>30 segundos</span> para responder cada pergunta!</p> -->
+      
+      <p>Não se esqueça de anotar quantas questões acertou, você será direcionado para página de <span>Pontuação automaticamente após 15 segundos!<span></p>
+      <button onclick="opcaoA()" class="btn-tr">DC Comics</button>
+      <button onclick="opcaoB()" class="btn-tr">Marvel Comics</button>
+
+      <div class="resultado">
+        <div class= "questions-a">
+          <h3>DC Comics</h3>
+          <p>1ª Resposta</p>
+          <p id="paragrafoA1"></p>
+          <p>2ª Resposta</p>
+          <p id="paragrafoA2"></p>
+          <p>3ª Resposta</p>
+          <p id="paragrafoA3"></p>
+        </div>
+        <div class= "questions-b">
+          <h3>Marvel Comics</h3>
+          <p>1ª Resposta</p>
+          <p id="paragrafoB1"></p>
+          <p>2ª Resposta</p>
+          <p id="paragrafoB2"></p>
+          <p>3ª Resposta</p>
+          <p id="paragrafoB3"></p>
+        </div> 
+      </div>
+      <a href="index.html" class="btn-re">Início</a> 
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

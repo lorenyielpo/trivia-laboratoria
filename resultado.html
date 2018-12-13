@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Trivia-Laboratoria</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="box">
+      <h2>Pontuação</h2>
+      <p>Se você acertou 3: <span>Parabéns, você é um(a) super G-E-E-K!</span></p>
+      <p>Se você acertou 2: <span>Você está no caminho certo, Padawan!</span></p>
+      <p>Se você acertou 1: <span>Lute mais uma vez!</span></p>
+
+      <img src="https://media.giphy.com/media/xUOwGfcrlRjKjs2sSI/giphy.gif" alt="gif do batman dançando"/>
+
+      <div class="new-game">  
+        <p class="replay">Deseja jogar novamente?</p>
+        <div class="btns">
+          <button onclick="opcaoA()" class="btn-re">DC Comics</button>
+          <button onclick="opcaoB()" class="btn-re">Marvel Comics</button>
+        </div>
+
+        <div class="resultado">
+          <div class= "questions-a">
+            <h3>DC Comics</h3>
+            <p>1ª Resposta</p>
+            <p id="paragrafoA1"></p>
+            <p>2ª Resposta</p>
+            <p id="paragrafoA2"></p>
+            <p>3ª Resposta</p>
+            <p id="paragrafoA3"></p>
+          </div>
+          <div class= "questions-b">
+            <h3>Marvel Comics</h3>
+            <p>1ª Resposta</p>
+            <p id="paragrafoB1"></p>
+            <p>2ª Resposta</p>
+            <p id="paragrafoB2"></p>
+            <p>3ª Resposta</p>
+            <p id="paragrafoB3"></p>
+          </div>  
+        </div>
+      </div>
+      <a href="index.html" class="btn-re">Início</a>
+    <script src="script.js"></script>
+  </body>
+</html>
